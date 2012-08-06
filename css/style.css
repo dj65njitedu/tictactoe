@@ -1,0 +1,141 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+		blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins,
+		kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol,
+		ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+		thead, tr, th, td, article, aside, canvas, details, figcaption,
+		figure, footer, header, hgroup, menu, nav, section, summary, time,
+		mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-size: 100%;
+		vertical-align: baseline;
+		}
+		ul {
+			list-style: none;
+		}
+		body{
+			background-image:url('../img/wooden_texture.png');
+			line-height:1;
+			width:100%;
+			height:100%;
+		}
+		#wrapper{
+			margin:0px auto;
+			width:80%;
+			height:100%;
+			position:relative;
+		}
+		#content{
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:100%;
+			display:none;
+		}
+		#start-menu-wrapper{
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:100%;
+			display:block;
+		}
+		#start-menu-wrapper #start-text{
+			margin:0 auto;
+			margin-top:100px;
+			margin-bottom:50px;
+			text-align:center;
+			font-size:4em;
+			color:white;
+		}
+		#start-menu-wrapper #btns{
+			display:block;
+			width:100%;
+			height:100%;
+		}
+		#start-menu-wrapper #btns #list-btns{
+			margin:0 auto;
+			width:260px;
+			height:60px;
+		}
+		#start-menu-wrapper #btns #list-btns button{
+			text-align:center;
+			font-size:2em;
+			width:100%;
+			height:100%;
+			margin:4px 0px 4px 0px;
+		}
+		#content #div-board{
+			margin:0 auto;
+			height:100%;
+		}
+		#content #div-board #whos-turn{
+			width:100%;
+			height:30px;
+		}
+		#content #div-board #whos-turn #whos-turn-img{
+			margin:0 auto;
+			background-image:url('../img/welcome.png');
+			width:200px;
+			height:30px;
+		}
+		#content #div-board #table-board{
+			background-image:url('../img/tic-tac-toe-board.png');
+			margin:0 auto;
+			width:225px;
+			height:225px;
+			background-repeat:no-repeat;
+		}
+		#content #div-board #table-board #single-board{
+			width:225px;
+			height:235px;
+		}
+		#content #div-board #table-board #single-board #row2{
+			height:20px;
+			width:20px;
+			text-align:center;
+		}
+		#content #div-board #table-board #single-board td{
+			height:20px;
+			width:20px;
+			text-align:center;
+		}
+		#multi-content{
+			width:100%;
+			height:100%;
+			display:none;
+		}
+		#multi-content #input-wrapper{
+			margin:0 auto;
+			width:325px;
+			height:100px;
+		}
+		#multi-content #board{
+			margin:0 auto;
+			width:225px;
+			height:235px;
+			text-align:center;
+			font-size:23px;
+			background-image:url('../img/tic-tac-toe-board.png');
+			background-repeat:no-repeat;
+		}
+		
+		#multi-content #board td{
+		height:74px;
+		width:74px;
+		text-align:center;
+		}
+	
+		
+		#backButtonDiv, #backButton,#backButton2,#player{
+		margin:0px auto;
+		width:260px;
+		height:30;
+		text-align:center;
+		}
+		
+		
+		.playerfont{
+			font-size:30px;
+		}

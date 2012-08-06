@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	
+	
+</head>
+<body >
+	<div id="wrapper">
+		
+		<div id="start-menu-wrapper">
+			<div id="btns">
+				<div id="start-text">TicTacToe</div>
+				<ul id="list-btns">
+					<li><Button type="button" id="btnSinglePlayer">Single Player</Button></li>
+					<li><Button type="button" id="btnMultiPlayer">Multiplayer </Button> </li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="content">
+			<div id="backButtonDiv">
+				<Button type="button" id="backButton2">Back </Button>
+			</div>
+			<div id="div-board">
+				<div id="whos-turn">
+					<div id="whos-turn-img"> </div>
+				</div><br/><br/>
+				<div id="table-board">
+					<table id="single-board">
+						<tr id="row0">
+							<td class="cell" id="00"> </td>
+							<td class="cell" id="01"> </td>
+							<td class="cell" id="02"> </td>
+						</tr>
+						<tr id="row1">
+							<td class="cell" id="10"> </td>
+							<td class="cell" id="11"> </td>
+							<td class="cell" id="12"> </td>
+						</tr>
+						<tr id="row2">
+							<td class="cell" id="20"> </td>
+							<td class="cell" id="21"> </td>
+							<td class="cell" id="22"> </td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div id="multi-content">
+			<div id="backButtonDiv">
+				<Button type="button" id="backButton">Back </Button>
+			</div>
+			<div id="player"></div>
+			<div id="input-wrapper">
+				<input id="newGame" type="button" value="New Game"/><div id="outerGameID">Enter Game Number</div>
+				<input id="gameID" type="text"/><input id="connectToAGame" type="button" value="Connect to a Game"/>
+			</div>
+			<br>
+			<div>
+				<table id="board">
+					<tr>
+						<td id="0"></td><td id="1"></td><td id="2"></td>
+					</tr>
+					<tr>
+						<td id="3"></td><td id="4"></td><td id="5"></td>
+					</tr>
+					<tr>
+						<td id="6"></td><td id="7"></td><td id="8"></td>
+					</tr>
+			</div>
+		</div>
+	</div>
+</body>
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova-2.0.0.js"></script>
+	<script src="js/game.js"></script>
+	<script src="js/multi-game.js"></script>	
+</html>
